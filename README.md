@@ -8,10 +8,14 @@
 <p align="centre">
   <img src="https://telegra.ph/file/a39031e5335bd85394733.jpg">
 </p>
-* Commands YouTube for Audio & Video and sends it to telegram after receiving valid URL [Do not forwarded any just copy and paste the link]
-* Reach me on Telegram [@YouTubeXDBot](https://t.me/YouTubeXDBot)
 
-# |-------------------------------------------------->Use: 
+* Commands YouTube for Audio & Video and sends it to telegram after receiving valid URL 
+[Do not forwarded any just copy and paste the link]
+
+* Reach me on Telegram 
+[@YouTubeXDBot](https://t.me/YouTubeXDBot)
+
+## ----------------------->Use: 
 * PERSONAL ---- Copy any Valid Youtube link and paste inside the bot and follow the prompts.
 * GROUPS ------ Add the bot then copy any valid Youtube link and paste inside the bot and follow the prompts.
 
