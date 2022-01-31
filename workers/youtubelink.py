@@ -24,7 +24,7 @@ async def love(client, message):
     ])
     youtube_ex = f"""
 **Some example youtube channels and songs if you don't know then what u want**
-- type /github if I helped u in AnyWay. 
+- type /github if I helped u in AnyWay.\n
 ```Pʀᴇᴅ∆ᴛᴏʀ``` """
 
    
