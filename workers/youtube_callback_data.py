@@ -117,7 +117,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaAudio(
             media=filename,
             thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ @vrtxytbot📥"),
+            caption=("Made With ❤ By @TheTeleRoid"),
             title=os.path.basename(filename)
         )
 
@@ -130,7 +130,7 @@ async def catch_youtube_dldata(c, q):
             width=width,
             height=height,
             thumb=thumb_image_path,
-            caption=("ፑ𝐫0ṃ @vrtxytbot📥"),
+            caption=("Made With ❤ By @TheTeleRoid"),
             supports_streaming=True
         )
 
@@ -139,7 +139,7 @@ async def catch_youtube_dldata(c, q):
         med = InputMediaDocument(
             media=filename,
             thumb=thumb_image_path,
-            caption=("Made With ❤ By @TeleRoidGroup "),
+            caption=("Made With ❤ By @TheTeleRoid"),
         )
         
 #docvideo needs work
@@ -149,7 +149,7 @@ async def catch_youtube_dldata(c, q):
        # med = InputMediaDocument(
         #    media=filename,
        #     thumb=thumb_image_path,
-      #      caption=("Check Movies Here @KDramasFlix"),
+      #      caption=("Check Movies Here @MoviesFlixers_DL"),
     #    )
     
     
@@ -163,7 +163,7 @@ async def send_file(c, q, med, filename):
     print(med)
     try:
         await q.edit_message_reply_markup(
-                 InlineKeyboardMarkup([[InlineKeyboardButton("Uploading📤", callback_data="down")]])          
+                 InlineKeyboardMarkup([[InlineKeyboardButton("Uploading 📤", callback_data="down")]])          
             )
         await c.send_chat_action(chat_id=q.message.chat.id, action="record_video")
         await q.edit_message_media(media=med)
